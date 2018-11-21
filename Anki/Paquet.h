@@ -16,6 +16,7 @@ private :
 public:
     Paquet();
 
+    //lkjjkljlkjk
     void ajouterCarte(Carte c);
     std::string creerCarte(std::string recto , std::string verso);
     std::string validerPaquet();
