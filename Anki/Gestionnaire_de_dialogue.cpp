@@ -1,5 +1,13 @@
-#include "gestionnaire_de_dialogue.h"
+#include "mainwindow.h"
+#include <QApplication>
+#include <iostream>
 
-Gestionnaire_de_dialogue::Gestionnaire_de_dialogue()
+int main(int argc, char *argv[])
 {
+   QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+
+    return a.exec();
+
 }

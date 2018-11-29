@@ -1,18 +1,21 @@
 #include "Paquet.h"
 
+using namespace std;
+
 Paquet::Paquet()
 {
 }
 
-void selectionnerPaquet(int idPaquet){
+
+
+string creerCarte(string  Recto , string  Verso){
 
 }
 
-std::string creerCarte(std::string  Recto , std::string  Verso){
+string creerPaquet(string  nom , string  categorie){
+    this->nom = nom;
+    this->categorie = categorie;
 
-}
-
-std::string creerPaquet(std::string  nom , std::string  categorie){
 
 }
 

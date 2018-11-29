@@ -12,7 +12,7 @@ TARGET = Anki
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
+SOURCES +=\
         mainwindow.cpp \
     Administrateur.cpp \
     Carte.cpp \
@@ -24,11 +24,11 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h \
     gestionnaire_de_dialogue.h \
-    carte.h \
     evaluation.h \
     moderateur.h \
     administrateur.h \
     Utilisateur.h \
-    Paquet.h
+    Paquet.h \
+    Carte.h
 
 FORMS    += mainwindow.ui

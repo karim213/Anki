@@ -1,18 +1,22 @@
 #include "Utilisateur.h"
-//mmmmmm
+
+using namespace std;
 
 void Utilisateur::selectionnerPaquet(int idPaquet){
 }
 
-std::string  Utilisateur::creerCarte(std::string  Recto , std::string  Verso){
+string  Utilisateur::creerCarte(string  Recto , string  Verso){
+    new Carte(Recto , Verso);
 
 }
 
-std::string Utilisateur::creerPaquet(std::string  nom , std::string  categorie){
+string Utilisateur::creerPaquet(string  nom , string  categorie){
+    new Paquet(nom , categorie);
 
 }
 
 void Utilisateur::afficherVerso(){
+
 
 }
 
